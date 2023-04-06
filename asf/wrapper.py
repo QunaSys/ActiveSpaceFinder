@@ -1,5 +1,5 @@
 # Copyright © 2020-2021 HQS Quantum Simulations GmbH. All Rights Reserved.
-# Modifications copyright © 2023 Qunasys. All Rights Reserved.
+# Modifications copyright © 2023 QunaSys. All Rights Reserved.
 
 """Simple wrapper functions to find active spaces (semi-)automatically."""
 
