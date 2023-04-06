@@ -402,7 +402,7 @@ def runasf_from_scf(mf: SCFclass,
             loginfo('Orbital selection for state {0:d}:'.format(root), verbose)
             loginfo('', verbose)
 
-            nel_state, mo_list_state = \
+            nel_state, mo_list_state, entropies = \
                 calc.selectOrbitals(root=root, threshold=entropy_threshold,
                                     plateau_threshold=plateau_threshold, verbose=verbose)
 
