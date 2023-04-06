@@ -1,5 +1,5 @@
 # Copyright © 2020-2021 HQS Quantum Simulations GmbH. All Rights Reserved.
-# Modifications copyright © 2023 QunaSys. All Rights Reserved.
+# Modifications copyright © 2023 QunaSys.
 
 """Core functions to calculate entropies and select orbitals."""
 
