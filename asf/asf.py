@@ -205,7 +205,7 @@ class ASFBase(ABC):
                       format(i, orbdens[i, 0], orbdens[i, 1], orbdens[i, 2], orbdens[i, 3],
                              entropy[i], status))
 
-        return nel, selected_mos, entropy
+        return nel, selected_mos, entropy.tolist()
 
 
 def calc_ncore(mol: Mole, nel_act: int) -> int:
